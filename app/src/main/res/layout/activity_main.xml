@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TETRIS"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_weight="0.20" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.89"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/play"
+            android:layout_alignStart="@+id/play"
+            android:layout_below="@+id/options"
+            android:layout_marginTop="37dp"
+            android:text="PLAY" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.89"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/options"
+            android:layout_alignStart="@+id/options"
+            android:layout_below="@+id/options"
+            android:layout_marginTop="37dp"
+            android:text="OPTIONS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.89"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/statistics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/statistics"
+            android:layout_alignStart="@+id/statistics"
+            android:layout_below="@+id/statistics"
+            android:layout_marginTop="37dp"
+            android:text="STATISTICS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.89"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/leaderboards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/leaderboards"
+        android:layout_alignStart="@+id/leaderboards"
+        android:layout_below="@+id/leaderboards"
+        android:layout_marginTop="37dp"
+        android:text="LEADERBOARDS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.89"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/exit"
+            android:layout_alignStart="@+id/exit"
+            android:layout_below="@+id/exit"
+            android:layout_marginTop="37dp"
+            android:text="EXIT" />
+    </LinearLayout>
+</LinearLayout>
+
